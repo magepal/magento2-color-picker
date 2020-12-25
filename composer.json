@@ -1,0 +1,33 @@
+{
+    "name": "magepal/magento2-color-picker",
+    "version": "1.1.3",
+    "description": "Admin System.xml Color Picker",
+    "keywords": ["magento2 color picker", "magento 2 color system.xml", "magento color selector"],
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "homepage": "https://www.magepal.com/",
+    "support": {
+        "email": "support@magepal.com"
+    },
+    "authors": [
+        {
+            "name": "Renon Stewart",
+            "email": "renon@magepal.com",
+            "homepage": "https://www.magepal.com/",
+            "role": "Leader"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MagePal\\ColorPicker\\": ""
+        }
+    }
+}
